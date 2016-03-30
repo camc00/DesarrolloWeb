@@ -1,0 +1,56 @@
+	body {
+		background-color:#fff6f1;
+		font-family:"Helvetica","Arial"; 
+	}
+	#contenido{
+		width:55%;
+		margin:0 auto;/*Establece la anchura de algunos o todos los márgenes de los elementos*/
+		text-align:center;
+	}
+	h1{
+		color:#e44e2d;
+	}
+	nav ul li {
+		display:inline-block;
+		margin-right: 20px;
+		color:#1d1d1d;
+		cursor: pointer;
+	}
+	#textoPr{
+		width: 600px;
+		height:300px;
+		background-color:#1d1d1d;
+		color:#fff;
+		margin:0 auto;/*Establece la anchura de algunos o todos los márgenes de los elementos*/
+		text-align:left;
+		border-radius:20px;
+		padding:20px; /*Establece la anchura de algunas o todas las zonas de relleno de los elementos*/
+		box-shadow:0px 0px 20px rgba(0,0,0,0.5);
+	}
+	a{
+		color:#e44e2d;
+		font-weight:bold;
+	}
+	#miCanvas{
+		/*La propiedad bottom especifica parte de la posición de un elemento 
+		(posicionado - es decir, con una posición determinada por código).
+
+		Para los elementos con una posición absoluta (aquellos que tienen la 
+		propiedad position: absolute o position: fixed), la propiedad 
+		bottom determina la distancia entre el borde inferior del elemento 
+		y el borde inferior de su bloque contenedor.*/
+		
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		/*border: solid;*/
+
+	}
+meter{
+	background-color: #fff;
+	width: 200px;
+	margin-left: 20px;
+	color:#e44e2d;
+	padding: 5px;
+	/*border-radius: 5px;*/
+}
