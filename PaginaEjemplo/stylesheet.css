@@ -54,3 +54,36 @@ meter{
 	padding: 5px;
 	/*border-radius: 5px;*/
 }
+
+label{
+	
+	display: block;
+
+}
+#btnEnviar{
+	border: nome;
+	background-color: #FFF;
+	color: #e44e2d;
+	padding: 4px;
+	margin: 20px;
+	cursor: pointer;
+}
+
+#rgcalificacion{
+
+	width: 150px;
+	appearance: none;
+	background-color: #FFF;
+	height: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#rgcalificacion::slider-thumb{
+
+	appearance: none;
+	background-color: #e44e2d;
+	border-radius: 10px;
+	height: 15px;
+	width: 10px;
+	
+}
